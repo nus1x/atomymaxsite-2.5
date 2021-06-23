@@ -3,7 +3,7 @@
 <br/>=================<br/>
 Author: N/A<br/>
 Google Dork: N/A<br/>
-Auto exploit coded by: github.com/ceritarommy<br/>
+Auto exploit coded by: <a href="https://github.com/ceritarommy">ceritarommy</a><br/>
 =================<br/>
 <ul>
     <li>Auto dump admin users</li>
